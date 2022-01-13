@@ -17,7 +17,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
         with:
-          # terraform_on: 0.13.0:
+          # terraform_on:ghj 0.13.0:
           cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
 
